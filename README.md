@@ -97,16 +97,6 @@ $ python SPSG/adversary/transfer.py random models/victim/VIC_DIR \
 
 # More details
 $ python SPSG/adversary/transfer.py --help
-
-# Examples (CUB-200):
-# Random
-$ python SPSG/adversary/transfer.py random models/victim/cubs200-resnet34 \
-        --out_dir models/adversary/cubs200-resnet34-random --budget 80000 \
-        --queryset ImageNet1k --batch_size 8 -d 2
-# Adaptive
-$ python SPSG/adversary/transfer.py adaptive models/victim/cubs200-resnet34 \
-        --out_dir models/adversary/cubs200-resnet34-random --budget 80000 \
-        --queryset ImageNet1k --batch_size 8 -d 2
 ```
 
 ### Training SPSG
